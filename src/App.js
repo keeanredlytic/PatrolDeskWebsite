@@ -27,7 +27,7 @@ function App() {
       <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
         <div className="navbar-container">
           <div className="navbar-logo">
-            <img src={logo} alt="PatrolDesk Logo" className="logo-image" />
+            <img src={logo} alt="PatrolDesk Logo" className="logo-image" onError={(e) => { e.target.style.display = 'none'; }} />
             <span>PatrolDesk</span>
           </div>
         </div>
