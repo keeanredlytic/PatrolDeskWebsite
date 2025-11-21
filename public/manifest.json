@@ -1,0 +1,27 @@
+{
+  "short_name": "PatrolDesk",
+  "name": "PatrolDesk - Records Management System",
+  "icons": [
+    {
+      "src": "PDLANDINGLOGO.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "PDLANDINGLOGO.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "PDLANDINGLOGO.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#F0F4F8",
+  "background_color": "#F0F4F8"
+}
+
