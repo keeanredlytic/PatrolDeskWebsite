@@ -36,7 +36,11 @@ function App() {
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content-simple">
-          <h1>Paperwork is stealing your time. <span className="hero-accent">Let's take it back.</span></h1>
+          <h1>
+            <span>Paperwork is stealing your time.</span>
+            <br />
+            <span className="hero-accent">Let's take it back.</span>
+          </h1>
           <div className="hero-buttons-simple">
             <a href="#" className="app-store-badge-link" target="_blank" rel="noopener noreferrer">
               <img src={appStoreBadge} alt="Download on the App Store" className="app-store-badge" />
