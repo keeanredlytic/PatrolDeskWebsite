@@ -78,7 +78,7 @@ function App() {
               <div className="feature-icon-simple">🔒</div>
               <h3 className="feature-title-simple">Secure & private</h3>
               <p className="feature-description-simple">
-                All data stays on your device. Zero server storage
+                All data stays on your device. Zero server storage. Auto-deletes after 24 hours to protect you from subpoenas.
               </p>
             </div>
           </div>
@@ -92,6 +92,9 @@ function App() {
           <h2>Ready to stop the paperwork?</h2>
           <p>
             Join officers across the country reclaiming their time
+          </p>
+          <p style={{ fontSize: '14px', color: 'var(--text-secondary)', marginTop: '15px', fontStyle: 'italic' }}>
+            Case data automatically deletes after 24 hours to protect you from subpoenas and legal discovery.
           </p>
           <div className="cta-buttons-simple">
             <a href="#" className="app-store-badge-link" target="_blank" rel="noopener noreferrer">

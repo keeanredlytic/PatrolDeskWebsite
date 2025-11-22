@@ -113,6 +113,32 @@ function Terms() {
             duration of the request and are not saved to any database, log file, or persistent storage controlled by us.
           </p>
 
+          <h3>24-Hour Data Retention Policy</h3>
+          <p style={{ fontWeight: 'bold', marginBottom: '15px', color: '#00C853' }}>
+            To protect our users from legal discovery and subpoenas, case data is automatically deleted from your device 
+            after 24 hours unless explicitly saved or exported by you.
+          </p>
+          <p>
+            PatrolDesk implements an automatic data retention policy designed to protect law enforcement officers 
+            from potential legal discovery requests and subpoenas. All accident case data stored locally on your device 
+            is automatically purged after 24 hours from the time of case creation, unless you have:
+          </p>
+          <ul>
+            <li>Exported the case as a PDF report and saved it to your device or cloud storage</li>
+            <li>Manually saved or archived the case using the App's save functionality</li>
+            <li>Sent the report via email (in which case a copy may exist in your sent emails)</li>
+          </ul>
+          <p style={{ marginTop: '15px' }}>
+            This automatic deletion policy ensures that case data does not remain accessible on your device beyond 
+            the immediate reporting period, thereby protecting you from potential legal discovery requests, subpoenas, 
+            or court orders that might otherwise compel production of device-stored data. Once data is automatically 
+            deleted after 24 hours, it cannot be recovered through the App.
+          </p>
+          <p style={{ fontStyle: 'italic', marginTop: '15px', fontSize: '14px' }}>
+            <strong>Important:</strong> If you need to retain case information for longer than 24 hours, you must 
+            export and save the PDF report to a secure location outside of the App before the automatic deletion occurs.
+          </p>
+
           <h3>Your Content & Data Accuracy</h3>
           <p>
             You retain ownership of all content you create in PatrolDesk. You are solely responsible for the 
