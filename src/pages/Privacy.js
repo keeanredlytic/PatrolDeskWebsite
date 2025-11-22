@@ -97,13 +97,11 @@ function Privacy() {
 
           <h3>24-Hour Automatic Data Deletion</h3>
           <p style={{ fontWeight: 'bold', marginBottom: '15px', color: '#00C853' }}>
-            To protect our users from legal discovery and subpoenas, case data is automatically deleted from your device 
-            after 24 hours unless explicitly saved or exported by you.
+            All case data stored on your device is automatically deleted 24 hours after case creation.
           </p>
           <p>
-            PatrolDesk implements an automatic data retention policy designed to protect law enforcement officers 
-            from potential legal discovery requests and subpoenas. All accident case data stored locally on your device 
-            is automatically purged after 24 hours from the time of case creation, unless you have:
+            PatrolDesk implements an automatic data retention policy. All accident case data stored locally on your device 
+            is automatically deleted after 24 hours from the time of case creation, unless you have:
           </p>
           <ul>
             <li>Exported the case as a PDF report and saved it to your device or cloud storage</li>
@@ -111,10 +109,7 @@ function Privacy() {
             <li>Sent the report via email (in which case a copy may exist in your sent emails)</li>
           </ul>
           <p style={{ marginTop: '15px' }}>
-            This automatic deletion policy ensures that case data does not remain accessible on your device beyond 
-            the immediate reporting period, thereby protecting you from potential legal discovery requests, subpoenas, 
-            or court orders that might otherwise compel production of device-stored data. Once data is automatically 
-            deleted after 24 hours, it cannot be recovered through the App.
+            Once data is automatically deleted after 24 hours, it cannot be recovered through the App.
           </p>
           <p style={{ fontStyle: 'italic', marginTop: '15px', fontSize: '14px' }}>
             <strong>Important:</strong> If you need to retain case information for longer than 24 hours, you must 
@@ -126,9 +121,7 @@ function Privacy() {
             As a result of our data storage practices and 24-hour automatic deletion policy, we do not possess any user 
             data that can be produced in response to a subpoena, court order, or law enforcement request. If we receive 
             a lawful request for information, we will formally respond that we do not store or retain any user data and 
-            therefore have no records to produce. Additionally, the automatic deletion of case data after 24 hours means 
-            that even locally stored data on your device is purged, further protecting you from potential legal discovery 
-            requests that might otherwise target device-stored information.
+            therefore have no records to produce.
           </p>
         </section>
 
